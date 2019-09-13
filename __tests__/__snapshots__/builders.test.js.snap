@@ -1,0 +1,234 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ArgumentList builder as function 1`] = `
+Array [
+  Object {
+    "kind": "Argument",
+    "name": Object {
+      "kind": "Name",
+      "value": "test",
+    },
+    "value": Object {
+      "kind": "StringValue",
+      "value": "value",
+    },
+  },
+  Object {
+    "kind": "Argument",
+    "name": Object {
+      "kind": "Name",
+      "value": "test2",
+    },
+    "value": Object {
+      "kind": "IntValue",
+      "value": "5",
+    },
+  },
+]
+`;
+
+exports[`ArgumentList builder as object 1`] = `
+Array [
+  Object {
+    "kind": "Argument",
+    "name": Object {
+      "kind": "Name",
+      "value": "test",
+    },
+    "value": Object {
+      "kind": "StringValue",
+      "value": "value",
+    },
+  },
+  Object {
+    "kind": "Argument",
+    "name": Object {
+      "kind": "Name",
+      "value": "test2",
+    },
+    "value": Object {
+      "kind": "IntValue",
+      "value": "5",
+    },
+  },
+]
+`;
+
+exports[`SelectionSet builder as array 1`] = `
+Object {
+  "kind": "SelectionSet",
+  "selections": Array [
+    Object {
+      "alias": null,
+      "arguments": null,
+      "directives": null,
+      "kind": "Field",
+      "name": Object {
+        "kind": "Name",
+        "value": "field",
+      },
+      "selectionSet": null,
+    },
+    Object {
+      "alias": Object {
+        "kind": "Name",
+        "value": "alias",
+      },
+      "arguments": Array [
+        Object {
+          "kind": "Argument",
+          "name": Object {
+            "kind": "Name",
+            "value": "args",
+          },
+          "value": Object {
+            "kind": "BooleanValue",
+            "value": true,
+          },
+        },
+      ],
+      "directives": null,
+      "kind": "Field",
+      "name": Object {
+        "kind": "Name",
+        "value": "name",
+      },
+      "selectionSet": Object {
+        "kind": "SelectionSet",
+        "selections": Array [
+          Object {
+            "alias": null,
+            "arguments": null,
+            "directives": null,
+            "kind": "Field",
+            "name": Object {
+              "kind": "Name",
+              "value": "nested",
+            },
+            "selectionSet": null,
+          },
+          Object {
+            "alias": null,
+            "arguments": null,
+            "directives": null,
+            "kind": "Field",
+            "name": Object {
+              "kind": "Name",
+              "value": "fields",
+            },
+            "selectionSet": null,
+          },
+        ],
+      },
+    },
+  ],
+}
+`;
+
+exports[`SelectionSet builder as function 1`] = `
+Object {
+  "kind": "SelectionSet",
+  "selections": Array [
+    Object {
+      "alias": null,
+      "arguments": null,
+      "directives": null,
+      "kind": "Field",
+      "name": Object {
+        "kind": "Name",
+        "value": "name",
+      },
+      "selectionSet": null,
+    },
+    Object {
+      "alias": Object {
+        "kind": "Name",
+        "value": "alias",
+      },
+      "arguments": null,
+      "directives": null,
+      "kind": "Field",
+      "name": Object {
+        "kind": "Name",
+        "value": "other",
+      },
+      "selectionSet": null,
+    },
+    Object {
+      "alias": null,
+      "arguments": Array [
+        Object {
+          "kind": "Argument",
+          "name": Object {
+            "kind": "Name",
+            "value": "args",
+          },
+          "value": Object {
+            "kind": "StringValue",
+            "value": "too",
+          },
+        },
+      ],
+      "directives": null,
+      "kind": "Field",
+      "name": Object {
+        "kind": "Name",
+        "value": "with",
+      },
+      "selectionSet": null,
+    },
+    Object {
+      "alias": null,
+      "arguments": null,
+      "directives": null,
+      "kind": "Field",
+      "name": Object {
+        "kind": "Name",
+        "value": "nested",
+      },
+      "selectionSet": Object {
+        "kind": "SelectionSet",
+        "selections": Array [
+          Object {
+            "alias": null,
+            "arguments": null,
+            "directives": null,
+            "kind": "Field",
+            "name": Object {
+              "kind": "Name",
+              "value": "fieldsAsArray",
+            },
+            "selectionSet": null,
+          },
+        ],
+      },
+    },
+    Object {
+      "alias": null,
+      "arguments": null,
+      "directives": null,
+      "kind": "Field",
+      "name": Object {
+        "kind": "Name",
+        "value": "or",
+      },
+      "selectionSet": Object {
+        "kind": "SelectionSet",
+        "selections": Array [
+          Object {
+            "alias": null,
+            "arguments": null,
+            "directives": null,
+            "kind": "Field",
+            "name": Object {
+              "kind": "Name",
+              "value": "asFunction",
+            },
+            "selectionSet": null,
+          },
+        ],
+      },
+    },
+  ],
+}
+`;

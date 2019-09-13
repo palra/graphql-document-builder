@@ -1,0 +1,33 @@
+{
+  "name": "graphql-document-builder",
+  "version": "0.1.0",
+  "description": "Dynamic GraphQL document builder, with code readability in-mind",
+  "main": "dist/index.js",
+  "author": "Loïc Payol <loic@arise.travel>",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.6.0",
+    "@babel/core": "^7.6.0",
+    "@babel/node": "^7.6.1",
+    "@babel/preset-env": "^7.6.0",
+    "babel-eslint": "^10.0.3",
+    "babel-jest": "^24.9.0",
+    "eslint": "^6.3.0",
+    "eslint-config-standard": "^14.1.0",
+    "eslint-plugin-flowtype": "^4.3.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-node": "^10.0.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "flow-bin": "^0.107.0",
+    "jest": "^24.9.0"
+  },
+  "scripts": {
+    "test": "jest",
+    "prepublish": "babel src --out-dir dist"
+  },
+  "dependencies": {
+    "graphql": "^14.5.4",
+    "graphql-ast-types": "^1.0.2"
+  }
+}
